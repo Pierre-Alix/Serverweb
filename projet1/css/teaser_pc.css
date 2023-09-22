@@ -1,0 +1,66 @@
+@font-face{
+    font-family: 'Police';
+    src: url(Gilgan\ 400.otf);
+}
+
+body{
+    font-family: Police;
+    background-color: rgb(250,250,250);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(110, 110, 110);
+}
+
+.logo{
+    height: 50px;
+    width: 43px;
+    margin-top: 0.5%;
+    margin-left: 1%;
+    cursor: pointer;
+}
+
+main{
+    margin-top: 110px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.bandeau{
+    position: absolute;
+    top:4%;
+    left:29%;
+    
+}
+
+.navbar{
+    display: inline;
+    margin-left: 50px;
+    font-size: 13px;
+}
+
+.phone{
+    height: 70vh;
+
+}
+
+.description{
+    font-size: 20px;
+}
+
+.preorder{
+    margin-top: 2%;
+    color:white;
+    background-color: blue;
+    border: none;
+    height: 42px;
+    font-family: Police;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.preorder:hover{
+    background-color: #2578e3;
+    transition-duration: 0.2s;
+}
